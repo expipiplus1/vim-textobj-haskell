@@ -37,7 +37,7 @@ def isBinding(text):
 
 def getContentType(text):
     """
-    getConentType(text) returns the type of the haskell content:
+    getContentType(text) returns the type of the haskell content:
     import    -> 'i'
     comment   -> 'c'
     binding   -> 'b'
